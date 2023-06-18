@@ -1,0 +1,94 @@
+# Data is transmitted in the form of bit between sender to receiver.
+
+# Data transmission mode:
+	1. Simplex ==> Keyboard type to monitor. ==> Data flow is Uni-Directional
+	2. Half Duplex ==> Waki-talki ==> Data flow is Multi-Directional but not at the same time. ==> asynchronous
+	3. Full Duplex ==> Telephone ==> Data flow is Multi-Directional and also at the same time. ==> synchronous
+
+# Data communication/transmission mode vs Computer network(Network).
+
+# Computer network(Network).
+	- Set/Arrange/Connects numbers of computers/nodes/devices in such order that data transmission  between those computers/nodes/devices can be done effectively.
+
+# Communication links| Communication media
+	- Guided: Twisted Pair, Coaxial, Fibre Optics
+	- Unguided media: Microwave, Radio Wave, Cellular, Infrared, Satellite.
+
+# Component of data communication:
+	- Sender, Receiver, Messsage, Transmission media, Protocol.
+
+# Features of network:
+	- Relaibility, Security, Performance.
+
+# Category of Network:
+	- LAN, WAN, MAN
+
+# Protocol:
+	- Standard for data transmission.
+	- Set of rules that governs data communication.
+	- Standard for data transmission that needs to be followed by both sender and receiver.
+
+# Elements of a protocol:
+	- Syntax
+	- Semantics
+	- Timing
+
+# Concept of Standard:
+	- De facto Standard,
+	- De jure Standard
+
+# Standard Organization in Networking Fields.
+--------------------------------------------------------------------------------------------------------------------
+
+# Data is transmitted in the form of bit(0/1) between sender to receiver.
+
+# Two ways/methods for data transmission:
+	- Serial transmission,
+	- Parallel transmission.
+
+# computer/ devices/ nodes/ stations : sender and reciver.
+	- Sender------communiation_links----------Receiver
+
+# Communication media/channel/path/ Data Bus: 
+	- Guided or Bounded: Twisted Pair, Coaxial, Fibre Optics
+	- Unguided media: Microwave, Radio Wave, Cellular, Infrared, Satellite.
+	@ https://www.youtube.com/watch?v=IUITfjrGXzY
+
+# Communication link:
+	-Broadcast.
+	-Multipoint.
+	-Point-to-multipoint.
+	-Private and public.
+	-Uplink.
+	-Downlink.
+	-Forward link.
+
+# What are the differences between logical connection and physical connection?
+# coommunication link vs communication media
+@ https://www.youtube.com/watch?v=gEctgzrIIJQ
+--------------------------------------------------------------------------------------------------------------------
+
+# Data is transmitted in the form of bit(0/1) between sender to receiver.
+
+# Two ways/methods for data transmission:
+	- Serial transmission:(full duplex mode), long distance
+	- Parallel transmission: (half duplex mode), short distance
+	@ https://www.youtube.com/watch?v=510o9aDfuaM
+
+# Classification of serial data transmission:
+	- Asynchronous Serial Transmission,
+	- Synchronous Serial Transmission,
+
+@https://www.youtube.com/watch?v=yyZ9igRsm7o
+--------------------------------------------------------------------------------------------------------------------
+
+# Synchronous:
+	- existing or occurring at the same time.
+	- happens at the same time.
+
+# Asynchronous:
+	- doesn't happens at the same time.
+
+# Concurrency vs Parallelism:
+	- https://www.youtube.com/watch?v=ENc_sLdUlFE
+

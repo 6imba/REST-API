@@ -1,0 +1,113 @@
+- API vs REST-API vs Real-time-API
+- API allows software to communicate with each other.
+# API is like a service that allow us to request a data.
+> url to json data is called as api. (url->method->data)
+> method created to perform some sort of task is called api.
+
+
+
+- usually when we create API to exchange data, its in json formate. i.e: 1.employeeAPI.json
+- here, "employeeAPI.json" json_file works as an API which is not hosted yet but does all the work of API like storing all empolyee data.
+- here, "employeeAPI.json" is simply an API.
+
+
+
+- Assume that you have a company and you have store all the detial_data of your employee in this "1.employeeAPI.json" API.
+- So simply you will call this "1.employeeAPI.json" API when you need data.
+- To get this data, first this data must be hosted somewhere, and you can access this data hitting the url of this Hosted_API_JSON_data.
+- Generally url/route help us access to particular remote API(API_data).
+    > url ==> server_route ==> controller/method ==> API_JSON_data.
+
+
+
+# In js file "2.script to get local API JSON data which is not hosted with routing view" && "3.script to get local API JSON data which is not hosted.js":
+    - they are fetching "1.employeeAPI.json" which is not hosted neither in remote nor in local so we are using fs module to fetch this local "1.employeeAPI.json" file.
+    - As its not hosted we cannot call it an API.
+
+    - But if "1.employeeAPI.json" file was hosted locally or remotely it would have called API.
+    - we would have used either of xhr, fetch, axois, to fetch these hosted_api_json_data, that would have return promise.
+    - Promise, beacuase when getting API data it might take some time so we need handle asynchronous operation.
+    # when we view it from server side, but when we view it from client side "http://localhost:8006/" is an API.
+
+
+
+### Simply API is the service that we create to access our data easily. ###
+    - here, 1.API.js is simple api.
+
+
+
+# here, when we run "2.script to get local API JSON data which is not hosted with routing view" file.
+    - It provie us url/route/path to "1.employeeAPI.json" API file which is not hosted tho.
+    - http://localhost:8006/eployeeAPI
+    - So, simply http://localhost:8006/eployeeAPI this is API url.
+    - Therefore, run "2.script to get local API JSON data which is not hosted with routing view" file.
+    - then use http://localhost:8006/eployeeAPI this is API url in Postman to testing purpose.
+
+    # try http://localhost:8006/eployeeAPI when you run "4.script to get local API JSON data which is not hosted.js".
+
+
+
+# Reference:
+    - https://www.youtube.com/watch?v=F1lI-Fhgjew&list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8&index=19
+
+
+
+# API ==> Application Programming Interface:
+    - API allows software to communicate each other.
+    - API is a service which allows us to request a data.
+    - get total covid-case data on July using Covid19_API_Service.
+    - api is in .json extension
+    - api share data in json formate.
+    - json(store, cahe data) formate.
+    - test if API works? ==> POSTMAN
+
+
+
+- API is used to transfer data from one end to another end in any system.
+- API determines how different software-component/program/application interract with each other.
+- API is set of programming code.
+- An API is a set of programming code that enables data transmission between one software product and another.
+- The purpose of API is to simplyfy the communication between two different programs.
+
+- E.g:
+    - JAVA programm -> JDBC API -> database
+    - one program -> API -> aonther program
+    - Merchant Software in Ecommerce app -> API -> Bank software
+        - Bank software provides their API to merchant.
+        - Merchant calls the bank API.
+        - Dhus, Merchant-software and Bank-software communicates.
+    - Youtube provides us an API so that we can fetch different kinds of data from youtube.
+
+- API based application. APIfication of products.
+- API helps to transfer data from one apllication to another application in certain formates like JSON, XML, etc.
+
+# API ~ Endpoint ~ URL ~ Route
+### You can say that URL/path is an Interface to particular resources/data placed on some other location. (API) ###
+
+# References:
+	- https://www.altexsoft.com/blog/engineering/what-is-api-definition-types-specifications-documentation/
+	- https://www.youtube.com/watch?v=_YlYuNMTCc8
+	- https://www.youtube.com/watch?v=5RkwOk1PzKk
+
+
+- Simply API is service from where we can request data.
+- Simply API is service from where we can get data.
+- Simply API is service from where we can post data.
+- Simply API is service from where we can update data.
+- Simply API is service from where we can delete data.
+
+
+
+
+[5:35 PM] Amir Shrestha
+Q. Choose the correct answer:
+Question: What is API?  
+1. API is JSON file holding data.
+2. API is url to reach JSON file.
+3. API is a set of code that returns set of data(json/xml).
+4. API is any method that does any sort of task.
+
+*** Simply anything that you expose is API. ***
+
+
+

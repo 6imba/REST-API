@@ -1,0 +1,95 @@
+JSON is a representational formate(kind of object formate) in which you can send data/resources from client to server and vise versa. 
+
+In past we use to have static web pages using html, css, js but now we can see dynamic web pages with dynamic content. So here JSON was introduced.
+Dynamic web pages means, the data we get from server is dynamic or on ever request you get response.
+
+
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+JSON Syntax Rules
+Data is in name/value pairs
+Data is separated by commas
+Curly braces hold objects
+Square brackets hold arrays
+
+
+A JavaScript program can easily convert JSON data into native JavaScript objects.
+
+
+JSON Data - A Name and a Value ("key":value)pair
+JSON Object - {"firstName":"John", "lastName":"Doe"}
+JSON Array - "employees":[ {"firstName":"John", "lastName":"Doe"}, {"firstName":"Anna", "lastName":"Smith"}]
+
+
+Converting a JSON Text to a JavaScript Object: parse
+A common use of JSON is to read data from a web server, and display the data in a web page.
+
+Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
+var obj = JSON.parse(text);
+
+
+
+
+
+
+
+********************************************************************************************************************************************************************************
+
+12. JavaScript read JSON from URL.
+  How to read data in JSON format from the provided URL? 
+  We can use JQuery, Fetch API, and XMLHttpRequest.
+
+how get a json object from an api in javascript & how to get json data from url in html
+
+
+Fetch API vs fetch method
+
+
+
+
+
+
+********************************************************************************************************************************************************************************
+
+
+Fetch API is a API| JavaScript_object that allows us to make network requests to retrieve resources(e.g. images, text, JSON, even HTML snippets) from a server via JavaScript.
+
+The Fetch API provides an interface for fetching resources (including across the network). It will seem familiar to anyone who has used XMLHttpRequest, but the new API provides a more powerful and flexible feature set.
+
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+
+
+********************************************************************************************************************************************************************************
+
+asynchronous request.
+complex data?
+http request
+
+
+
+
+
+
+********************************************************************************************************************************************************************************
+
+Reference:
+https://www.youtube.com/watch?v=JuFdz8f-cT4
+
+
+
+
+
+
+
+
+********************************************************************************************************************************************************************************
+
+
+
+
+

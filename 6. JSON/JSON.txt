@@ -1,0 +1,13 @@
+# In JavaScript:
+    - JSON.parse() ==> JavaScript Object
+    - JSON.stringify() ==> JSON(string)
+
+# In Python:
+    - json.loads() ==> Python dictionary
+    - json.dump() ==> JSON(string)
+
+
+# JavaScript Object: { name:'Amir Shrestha', age:22, traveler:true }
+# Python Dictionary: { 'name':'Amir Shrestha', 'age':22, 'traveler':true }
+# JSON: '{ 'name':'Amir Shrestha', 'age':22, 'traveler':true }'
+

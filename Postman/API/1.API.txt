@@ -1,0 +1,34 @@
+# API ==> Application Programming Interface:
+    - API allows software to communicate each other.
+    - API is a service which allows us to request a data.
+    - get total covid-case data on July using Covid19_API_Service.
+    - api is in .json extension
+    - api share data in json formate.
+    - json(store, cahe data) formate.
+    - test if API works? ==> POSTMAN
+
+- API is used to transfer data from one end to another end in any system.
+- API determines how different software-component/program/application interract with each other.
+- API is set of programming code.
+- An API is a set of programming code that enables data transmission between one software product and another.
+- The purpose of API is to simplyfy the communication between two different programs.
+
+- E.g:
+    - JAVA programm -> JDBC API -> database
+    - one program -> API -> aonther program
+    - Merchant Software in Ecommerce app -> API -> Bank software
+        - Bank software provides their API to merchant.
+        - Merchant calls the bank API.
+        - Dhus, Merchant-software and Bank-software communicates.
+    - Youtube provides us an API so that we can fetch different kinds of data from youtube.
+
+- API based application. APIfication of products.
+- API helps to transfer data from one apllication to another application in certain formates like JSON, XML, etc.
+
+# API ~ Endpoint ~ URL ~ Route
+# You can say that URL/path is an Interface to particular resources/data placed on some other location. (API)
+
+# References:
+	- https://www.altexsoft.com/blog/engineering/what-is-api-definition-types-specifications-documentation/
+	- https://www.youtube.com/watch?v=_YlYuNMTCc8
+	- https://www.youtube.com/watch?v=5RkwOk1PzKk

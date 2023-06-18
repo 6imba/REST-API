@@ -1,0 +1,12 @@
+- API vs SOAP-API vs REST-API vs Real-time-API
+
+- Nowaday every body creates RESTFUL API for their application.
+
+- So, what is REST API?
+    - REST is way/architecture to built API.
+
+
+
+# URI vs URL
+
+# https://www.youtube.com/watch?v=-MTSQjw5DrM

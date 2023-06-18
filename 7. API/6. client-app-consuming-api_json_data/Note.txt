@@ -1,0 +1,14 @@
+# Before excuting this index.html file, run (C:\Users\DELL\Desktop\NodeJS\7. API\5.API return name and email\server-hosting-api_json_data.js) file.
+    > host backend server file.
+
+# GET http://localhost:8006/ net::ERR_FAILED 200
+
+- Because your front-end service address port and back-end service address port are different, Cross-Origin Resource Sharing is triggered. That's why you got the error in the console of the browser.
+- In order to enable CORS, we can use cors middleware.
+
+# When you request api from certain/different origin, its blocked.
+    - For example when we request any api from localhost, by default all the browsers block this request due to some security concerned.
+    - but incase you hit the same api from postman, its accessible.
+
+# so to bypass this err:
+    - 

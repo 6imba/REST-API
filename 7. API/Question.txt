@@ -1,0 +1,2 @@
+Q. why this line again console.logs json_data again, two http request url request and favicon request may be.
+    >  res.end(json_data)
