@@ -1,0 +1,33 @@
+- Postman is an application used for API testing.
+- It is an HTTP client that tests HTTP requests, utilizing a graphical user interface, through which we obtain different types of responses that need to be subsequently validated.
+- Postman is an API client that makes it easy for developers to create, share, test and document APIs.
+- This is done by allowing users to create and save simple and complex HTTP/s requests, as well as read their responses.
+- The result - more efficient and less tedious work.
+- Postman is an API(application programming interface) development tool which helps to build, test and modify APIs.
+- It has the ability to make various types of HTTP requests(GET, POST, PUT, PATCH),
+- saving environments for later use, converting the API to code for various languages(like JavaScript, Python).
+- Postman is used for interracting with APIs and write API tests.
+- 
+
+
+Q. What is API testing?
+    - Definition: API (Application Programming Interface) testing is a type of software testing that aims to determine whether the APIs that are developed meet expectations when it comes to functionality, performance, reliability and security for an application.
+
+Q. What is endpoint in API?
+    - 
+
+
+
+Client request data --> HTTP request
+Server response data <-- HTTP response - in JSON/XML formate
+
+
+Q. What is an API?
+    - An API is a set of programming code that enables data transmission between one software product and another. It also contains the terms of this data exchange.
+
+
+
+
+
+
+* REST API.

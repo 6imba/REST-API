@@ -1,0 +1,72 @@
+JSON stands for JavaScript Object Notation
+JSON is a lightweight format for storing and transporting data
+JSON is often used when data is sent from a server to a web page
+JSON is "self-describing" and easy to understand
+
+
+JSON Syntax Rules
+Data is in name/value pairs
+Data is separated by commas
+Curly braces hold objects
+Square brackets hold arrays
+
+
+A JavaScript program can easily convert JSON data into native JavaScript objects.
+
+
+JSON Data - A Name and a Value ("key":value)pair
+JSON Object - {"firstName":"John", "lastName":"Doe"}
+JSON Array - "employees":[ {"firstName":"John", "lastName":"Doe"}, {"firstName":"Anna", "lastName":"Smith"}]
+
+
+Converting a JSON Text to a JavaScript Object: parse
+A common use of JSON is to read data from a web server, and display the data in a web page.
+
+Then, use the JavaScript built-in function JSON.parse() to convert the string into a JavaScript object:
+var obj = JSON.parse(text);
+
+
+
+
+
+
+
+********************************************************************************************************************************************************************************
+
+12. JavaScript read JSON from URL.
+  How to read data in JSON format from the provided URL? 
+  We can use JQuery, Fetch API, and XMLHttpRequest.
+
+how get a json object from an api in javascript & how to get json data from url in html
+
+
+Fetch API vs fetch method
+
+
+
+
+
+---------------------------------------------------
+
+- JSON:
+- JSON is just a file format for text just like PNG is file format for image. (i.e .txt, jpg, .png, .json)
+- JSON is just a file format for text with structured text data.
+
+- Before JSON you need to know that in web-application or desktop-application, we have generally 3 file format: CSV, JSON, XML.
+- All file format have their own representational structure & syntax which make us easly to read and write data in our application.
+- Like if our mobile application need to communicate with server, we can use JSON_file or CSV_file or XML_file.
+- Simply JSON is a normal file where our data is defined in well structured manner, so that when sending and receving data its easy for reading.
+- And as our data is easily readable we can easily extract, mnipulate, work on data.
+- Dhus JSON is used for data sharing(sending and receiving).
+- Good usability and readability.
+
+const JSON_DATA = `
+                    "id": 1;
+                    "name": "Amir";
+                    "age": "22";
+                   `
+- JSON data is simply plain mutiline string text.
+- JSON data is simply mutiline string with JS object like structure.
+- JSON data is simply mutiline string with JS object like structure, thus can be converted/parse into JS object.
+
+- Change Obbject into String and vise-versa.
